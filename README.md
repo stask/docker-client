@@ -2,6 +2,8 @@
 
 This is a Clojure wrapper for [Spotify's docker-client library](https://github.com/spotify/docker-client).
 
+[![Clojars Project](https://img.shields.io/clojars/v/stask/docker-client.svg)](https://clojars.org/stask/docker-client)
+
 ## Why not to use the java library directly?
 
 Well, the docker-client library is cool, but it's not very Clojure-friendly because it uses varargs in multple places, inner classes, etc.
