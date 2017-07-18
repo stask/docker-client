@@ -1,4 +1,4 @@
-(defproject stask/docker-client "0.1.0"
+(defproject stask/docker-client "0.1.1-SNAPSHOT"
   :description "Clojure wrapper for Spotify's docker-client library"
   :url "https://github.com/stask/docker-client"
   :license {:name "Eclipse Public License"
