@@ -1,6 +1,10 @@
 # docker-client
 
-A Clojure library designed to ... well, that part is up to you.
+This is a Clojure wrapper for [Spotify's docker-client library](https://github.com/spotify/docker-client).
+
+## Why not to use the java library directly?
+
+Well, the docker-client library is cool, but it's not very Clojure-friendly because it uses varargs in multple places.
 
 ## Usage
 
